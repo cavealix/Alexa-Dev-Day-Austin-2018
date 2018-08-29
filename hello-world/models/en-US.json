@@ -1,0 +1,64 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hello alex",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+        "name": "HowAreYouIntent",
+        "slots": [
+
+        ],
+        "samples": [
+          "how is he doing",
+          "how are you",
+          "howdy do"
+        ]
+        },
+        {
+          "name": "BuyIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "buy now",
+            "buy it now",
+            "I want to buy",
+            "let's buy"
+          ]
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "hello",
+            "say hello",
+            "say hello world"
+          ]
+        }
+      ]
+    }
+  }
+}
